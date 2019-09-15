@@ -15,9 +15,14 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-        public void pressionaBotao(View v) {
+        public void pressionaBotao1(View v) {
         Log.d("teste1", "teste2");
     }
+
+    public void pressionaBotao2(View view) {
+        Log.d("Segundo teste", "Ok");
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
