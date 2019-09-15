@@ -1,5 +1,6 @@
 package com.example.meusexercicios;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -7,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.util.Log;
 import android.view.View;
@@ -17,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         public void pressionaBotao1(View v) {
         Log.d("teste1", "teste2");
+            ConstraintLayout cl = (ConstraintLayout) findViewById(R.id.tela);
+            cl.setBackgroundColor(Color.parseColor("#BBFF00"));
     }
 
     public void pressionaBotao2(View view) {
