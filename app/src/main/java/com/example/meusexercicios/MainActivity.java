@@ -8,14 +8,15 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void pressionaBotao(View v) {
-
+        public void pressionaBotao(View v) {
+        Log.d("teste1", "teste2");
     }
 
     @Override
